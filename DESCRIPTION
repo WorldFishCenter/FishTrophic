@@ -1,0 +1,32 @@
+Package: fishtrophic
+Title: Trophic Level, Growth and Nutrient Data for Freshwater Fish from FishBase
+Version: 0.1.0
+Authors@R:
+    person("Lorenzo", "Longobardi", , "l.longobardi@cgiar.org", role = c("aut", "cre"))
+Description: Extracts native freshwater and brackish-water fish species
+    for chosen countries from FishBase, with their trophic level, feeding
+    guild, growth parameters, nutrient content and aquaculture use, and
+    scores them with a simple nutritional index.
+License: GPL (>= 3)
+URL: https://github.com/WorldFishCenter/fishtrophic
+BugReports: https://github.com/WorldFishCenter/fishtrophic/issues
+Depends:
+    R (>= 4.1.0)
+Imports:
+    dplyr,
+    magrittr,
+    purrr,
+    rfishbase,
+    rlang
+Suggests:
+    devtools,
+    ggplot2,
+    knitr,
+    rmarkdown,
+    stringr,
+    testthat (>= 3.0.0),
+    wesanderson
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
