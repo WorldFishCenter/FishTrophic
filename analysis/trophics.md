@@ -84,7 +84,7 @@ country <- rfishbase::country()
 codes <- unique(country$C_Code)
 
 #tdat <- get_fishbase_data(country_codes = c("566", "404", "834", "404"))
-tdat <- get_fishbase_data(country_codes = codes)
+tdat <- get_fishbase_data(country_codes = africa_ccodes)
 ```
 
 ## Growth-yield and nutritional indices
